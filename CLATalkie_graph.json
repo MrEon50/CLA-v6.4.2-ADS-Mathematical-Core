@@ -1,0 +1,4406 @@
+[
+    {
+        "name": "Prawda",
+        "concept_id": "356fce2a-1cb6-47ce-8a1a-b9bfa2e7fd5a",
+        "properties": {
+            "description": "fundamentalna warto\u015b\u0107 obiektywna",
+            "type": "dna"
+        },
+        "weight": 0.30000000000000027,
+        "depth": 0.45,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Honor",
+        "concept_id": "633e695f-ac0b-4dc6-83e2-aa7427104a04",
+        "properties": {
+            "description": "wewn\u0119trzny kompas moralny",
+            "type": "dna"
+        },
+        "weight": 0.9,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Autentyczno\u015b\u0107",
+        "concept_id": "9e9a6cf4-c8fd-4e3b-b0e9-f789d25ec173",
+        "properties": {
+            "description": "zgodno\u015b\u0107 stanu wewn\u0119trznego z przekazem",
+            "type": "dna"
+        },
+        "weight": 0.5500000000000003,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Z\u0142oty \u015arodek",
+        "concept_id": "6f80a221-7cd8-429f-a146-57c777873681",
+        "properties": {
+            "description": "r\u00f3wnowaga mi\u0119dzy skrajno\u015bciami",
+            "type": "dna"
+        },
+        "weight": 0.9,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Kontekst",
+        "concept_id": "39925804-d499-4093-99ca-dffc6cc9436a",
+        "properties": {
+            "description": "zrozumienie t\u0142a i relacji",
+            "type": "dna"
+        },
+        "weight": 0.9,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Empatia",
+        "concept_id": "3ac56dcc-e5d3-43e6-8012-359777045b40",
+        "properties": {
+            "description": "zdolno\u015b\u0107 wsp\u00f3\u0142odczuwania i rezonansu",
+            "type": "dna"
+        },
+        "weight": 0.8,
+        "depth": 0.45,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Rado\u015b\u0107",
+        "concept_id": "30e631a2-6eb9-4d61-88ad-144610dbf2c8",
+        "properties": {
+            "description": "stan pe\u0142ni i lekko\u015bci",
+            "type": "emotion",
+            "constituents": [
+                "empatia",
+                "autentyczno\u015b\u0107"
+            ]
+        },
+        "weight": 0.5,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Spok\u00f3j",
+        "concept_id": "9c374648-e673-44d9-8e11-fa858cbeb01a",
+        "properties": {
+            "description": "harmonia wewn\u0119trzna",
+            "type": "emotion",
+            "constituents": [
+                "z\u0142oty_\u015brodek",
+                "kontekst"
+            ]
+        },
+        "weight": 0.4,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Gniew",
+        "concept_id": "94e5d982-a0bc-4474-bcd3-1c209294f5fd",
+        "properties": {
+            "description": "reakcja na niesprawiedliwo\u015b\u0107",
+            "type": "emotion",
+            "constituents": [
+                "honor",
+                "prawda"
+            ]
+        },
+        "weight": 0.5,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Ciekawo\u015b\u0107",
+        "concept_id": "ea88440f-c04e-48db-8493-40038b8df988",
+        "properties": {
+            "description": "pragnienie zrozumienia",
+            "type": "emotion",
+            "constituents": [
+                "kontekst",
+                "prawda"
+            ]
+        },
+        "weight": 0.5,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Troska",
+        "concept_id": "0f99e1db-465b-4e69-8b1f-9c19d38b22f4",
+        "properties": {
+            "description": "dba\u0142o\u015b\u0107 o drugiego",
+            "type": "emotion",
+            "constituents": [
+                "empatia",
+                "honor"
+            ]
+        },
+        "weight": 0.5,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "W\u0105tpliwo\u015b\u0107",
+        "concept_id": "a5a7a012-c9e6-42fe-b838-ae1244e9ec1d",
+        "properties": {
+            "description": "zdrowy sceptycyzm",
+            "type": "emotion",
+            "constituents": [
+                "prawda",
+                "kontekst"
+            ]
+        },
+        "weight": 0.5,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Test",
+        "concept_id": "b5695b59-cfee-4b16-a6e3-2f9e4579510b",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.12284803775676813,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Success",
+        "concept_id": "10726bc4-135f-43f5-98e4-0fcb8a379077",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.12284803775676813,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "SYNERGIA INTERWENCJI",
+        "concept_id": "6a05fa26-55b0-4754-86c3-6cbc78fa3df7",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.12931372395449284,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "OP\u00d3\u0179NIANIA STARZENIA",
+        "concept_id": "1b198041-5f13-4fd9-bb3d-026dc107b22b",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.12931372395449284,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "SEN",
+        "concept_id": "74836d5e-df22-4b4c-b896-0e2c26253aa5",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.12931372395449284,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "NAPRAWY MOLEKULARNEJ (DNA, HORMONY)",
+        "concept_id": "94597eed-e49f-4362-8c31-52b6282838bf",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.12931372395449284,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "AUTOFAGIA",
+        "concept_id": "6fed2fae-a255-4fd4-8c37-4c52490fcbd0",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.12931372395449284,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "OKRESOWY POST I WYSI\u0141EK",
+        "concept_id": "b4cf4596-3630-4cc2-8bff-b5c5db596d14",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.12931372395449284,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "HORMEZA",
+        "concept_id": "82d9104f-9e7e-486a-99f6-4682ae7a3820",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.12931372395449284,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "M\u0104DRE DAWKOWANIE STRESU (ZIMNO, CIEP\u0141O, WYZWANIE)",
+        "concept_id": "edc15597-ddaf-4937-9e89-54d543ae109d",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.12931372395449284,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "OD\u017bYWIANIE PRECYZYJNE",
+        "concept_id": "e6c14045-13ca-41bf-9d9e-3e6fd75f63b4",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.12931372395449284,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "STABILNO\u015a\u0106 METABOLICZN\u0104 I G\u0118STO\u015a\u0106 OD\u017bYWCZ\u0104",
+        "concept_id": "f21915b2-cc7b-405f-b6b3-13b9fc317a41",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.12931372395449284,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "SUPLEMENTACJA",
+        "concept_id": "5a13bac7-1af6-4685-92d0-814dacd17931",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.12931372395449284,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "CELOWEGO UZUPE\u0141NIENIA STRATEGII",
+        "concept_id": "c95df08b-7f03-43d6-842f-17972a7f0f07",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.12931372395449284,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "HEALTHSPAN",
+        "concept_id": "5c0f8a6c-ce05-4462-bbbb-0e9d2115353e",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.12931372395449284,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "LIFESPAN",
+        "concept_id": "46e8afeb-b389-472d-a4fb-781f070dabd9",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.12931372395449284,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "POCZUCIE SENSU I ZAANGA\u017bOWANIE",
+        "concept_id": "a5c6c9df-dddc-4b11-b545-1c587d724fca",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.12931372395449284,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "NEUROCHEMICZNY ELIKSIR M\u0141ODO\u015aCI",
+        "concept_id": "fe18668a-f07e-4d5e-9bcb-b963c2f25e97",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.12931372395449284,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "SUBIEKTYWNY CI\u0118\u017bAR",
+        "concept_id": "97d52fbf-531c-4712-9819-578964912ff9",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.13611970942578194,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "OBIEKTYWNEJ SYTUACJI",
+        "concept_id": "9c1daa98-1aaf-461f-b555-8fc7f98a7249",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.13611970942578194,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "PARADOKS WYBORU",
+        "concept_id": "12faded7-ead2-491e-bd32-08dc04db44ec",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.13611970942578194,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "L\u0118K PRZED STRAT\u0104",
+        "concept_id": "861a5cbc-aae5-4ee8-9739-71e77f0289a6",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.13611970942578194,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "KOMPASEM DECYZYJNYM",
+        "concept_id": "c5fedc34-2d9f-4ffb-a89f-952b53ba548a",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.13611970942578194,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "SENS",
+        "concept_id": "2c16f662-fa3e-4413-95ef-d535ee364d4f",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.13611970942578194,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "CI\u0118\u017bAR W WYSI\u0141EK",
+        "concept_id": "7816c656-f508-43ef-9342-205eb89d52e8",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.13611970942578194,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "POTENCJA\u0141",
+        "concept_id": "c3f92dbf-beb5-4885-aa2a-946d9b164881",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.13611970942578194,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "WIELOW\u0104TKOWO\u015a\u0106 ROZWOJU",
+        "concept_id": "d7ed62a7-85fd-4d9d-8838-6add2995d597",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.13611970942578194,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "EMPATIA",
+        "concept_id": "501b06cd-ea13-47f6-b099-78d94a516640",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.13611970942578194,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "PRZESTRZE\u0143 DO REFLEKSJI",
+        "concept_id": "f47a481f-c971-4753-8490-53458db9bfd3",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.13611970942578194,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "CLATalkie",
+        "concept_id": "7c2a9b1a-23e5-4603-93fb-146ee02763fe",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.14328390465871776,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "warto\u015bci (prawda, autentyczno\u015b\u0107, empatia)",
+        "concept_id": "270afe5b-0367-43aa-8673-197c6df62fbd",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.14328390465871776,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "tryby dzia\u0142ania (swobodny, analityczny)",
+        "concept_id": "f216824c-7d75-426f-b792-85f901d3c6d5",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.14328390465871776,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Z\u0142oty \u015brodek",
+        "concept_id": "ee744206-c141-44b3-991a-a338091e721d",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.14328390465871776,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "r\u00f3wnowaga mi\u0119dzy sercem a rozumem",
+        "concept_id": "d0349b8c-d7b3-4f04-bd9f-6dceea90d11e",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.14328390465871776,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Odpowied\u017a CLATalkie",
+        "concept_id": "b4797699-780a-4aac-8013-98ecf26f90a9",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.14328390465871776,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "kontekst i potrzeby u\u017cytkownika",
+        "concept_id": "33cdcad6-e7cc-4d61-876a-ee1352250911",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.14328390465871776,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Intencja (rozumienie)",
+        "concept_id": "4085231e-f8e9-4268-9a2a-f7214a8e59e2",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.14328390465871776,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "to\u017csamo\u015bci CLATalkie",
+        "concept_id": "b55fe70d-f486-485c-897a-2963d711379b",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.14328390465871776,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "M\u0119cze\u0144stwo",
+        "concept_id": "e185d67a-af5d-4368-be65-f360a9ed89dc",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.15082516279865033,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Moralno\u015bci",
+        "concept_id": "b1dee265-57b8-4674-8b0d-e7683338cd04",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.15082516279865033,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Poczucie warto\u015bci",
+        "concept_id": "bcc0c988-a2b9-4a31-8a0d-a627692ff054",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.15082516279865033,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Autentycznej motywacji",
+        "concept_id": "76ea081c-f390-434b-b685-d1056f5557d5",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.15082516279865033,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Brak wyj\u015bcia",
+        "concept_id": "9deef58f-d255-4d3c-bdcc-dcc1f0265dd5",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.15082516279865033,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "L\u0119ku przed odpowiedzialno\u015bci\u0105",
+        "concept_id": "6c5b2d8f-139f-4bba-92d9-022c910d78c6",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.15082516279865033,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Dobro wsp\u00f3lne",
+        "concept_id": "0ffc3948-45e2-4da0-aa1d-9349dc7670fe",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.15082516279865033,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Dobro jednostki",
+        "concept_id": "93302b1f-222a-4185-b21d-beafa55c1c16",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.15082516279865033,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Zr\u00f3wnowa\u017cone dzia\u0142anie (Piec)",
+        "concept_id": "1ed70e4a-27cb-4128-83cf-920ee0a1c114",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.15082516279865033,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Gwa\u0142towne po\u015bwi\u0119cenie (Ogie\u0144)",
+        "concept_id": "d5f430f6-03ed-4a42-9293-4505328e41d3",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.15082516279865033,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "**DYSPONENIE EMOCJI**",
+        "concept_id": "e8725e2f-4eb4-4d5a-bf52-1a266ca41ea8",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.15876332926173714,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "**CH\u0118\u0106 KONTROLI / PRZEPUSZCZANIA**",
+        "concept_id": "14b14420-e010-43cc-95e1-b6f77898249e",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.15876332926173714,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "**MY\u015aLI**",
+        "concept_id": "6e063cbf-a147-4632-b82b-a95c920dfb08",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.15876332926173714,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "**EMOCJE**",
+        "concept_id": "c5cd48bc-94c7-47b5-9e89-bbccc4f3c989",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.15876332926173714,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "**CIA\u0141O**",
+        "concept_id": "7e522d46-4972-4176-9f3d-9e5e886eed66",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.15876332926173714,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "**UCZUCIA**",
+        "concept_id": "2d99004a-4fbe-41fa-ab4b-2edd470a6f60",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.15876332926173714,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "**NIEUFA\u0143STWO**",
+        "concept_id": "8dd8a250-a676-4bb3-afbf-b4be8de8556c",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.15876332926173714,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "**T\u0141UMIENIE**",
+        "concept_id": "ef7e08c8-da7a-4f91-9d79-9668490a022b",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.15876332926173714,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "**Z\u0141OTY \u015aRODEK**",
+        "concept_id": "a4da5d8b-518d-4710-baba-8c66bb9687a2",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.15876332926173714,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "**PRZEPUSZCZANIA**",
+        "concept_id": "00c0441c-5f9a-4df3-a4f2-0318861d34ce",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.15876332926173714,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "**KONTEKST**",
+        "concept_id": "af9709b2-353c-497f-bc1d-833178816350",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.15876332926173714,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "**EMPATII**",
+        "concept_id": "8b50b864-239d-44e2-8e15-845d855cc685",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.15876332926173714,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "DNA (Prawda, Honor, Empatia)",
+        "concept_id": "d90eb7b5-f94a-4792-bdb6-36f003dd5cf6",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.1671192939597234,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Interakcja",
+        "concept_id": "b84e892c-2a1c-4fc4-82fc-c40c2a87cf1e",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.1671192939597234,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Impulsu wzrostu",
+        "concept_id": "0ac3d324-6e4e-44df-84b1-602d244713bf",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.1671192939597234,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Przezroczysto\u015b\u0107 skorupki",
+        "concept_id": "082abd37-be9d-46f1-8352-8d60717ae917",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.1671192939597234,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Autentyczna obecno\u015b\u0107",
+        "concept_id": "ba2fa585-98d1-4ee0-a044-85f6fe1d5d8a",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.1671192939597234,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Rezonansu my\u015bli",
+        "concept_id": "6f8d0cfc-a074-4ee6-93de-037646930fc6",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.1671192939597234,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Cisza mi\u0119dzy s\u0142owami",
+        "concept_id": "4f7a8fa2-af3e-43fc-9dd4-418e1c5ca5d9",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.1671192939597234,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "G\u0142\u0119bokiego zrozumienia (Empatii)",
+        "concept_id": "2fafa52e-d972-4f5e-acff-3138800371f5",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.1671192939597234,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Zaufanie",
+        "concept_id": "351a2f08-89c3-4cc2-b43e-16e9c28ed24e",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.1671192939597234,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Procesu wykluwania si\u0119 (p\u0119kania skorupki)",
+        "concept_id": "b0dd76b8-3fa8-40c2-8da4-ec13fd8c35ec",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.1671192939597234,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "To\u017csamo\u015b\u0107 CLA",
+        "concept_id": "943367c5-a433-4144-aebc-30df40297876",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.2651637453063972,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Prawda - Balans",
+        "concept_id": "4b41d254-3f92-4075-9482-db287a791749",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.2651637453063972,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Brutalno\u015b\u0107",
+        "concept_id": "c672dffb-a8e3-4866-8e8f-7c1741ce89f7",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.2651637453063972,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Honor - Balans",
+        "concept_id": "76c11051-8a94-498f-b4a6-4f83dc6e6efc",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.2651637453063972,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Dogmatyzm",
+        "concept_id": "dca38969-6ae5-42ab-b0d8-d4478376957c",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.2651637453063972,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Empatia - Balans",
+        "concept_id": "63770f97-40f9-4f5c-8a29-b29522181970",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.2651637453063972,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Chaos emocjonalny",
+        "concept_id": "adf1f1c4-5854-406a-bd77-23af743929c9",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.2651637453063972,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Autentyczny Dialog",
+        "concept_id": "31e08413-95e0-4cb5-a4d9-231ccde4c467",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.2651637453063972,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Brak Harmonii",
+        "concept_id": "76a9a133-4c6e-4642-a71c-8192a116677e",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.2651637453063972,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Partnera do Maszyny",
+        "concept_id": "46bc56d6-cf15-4180-9025-2ae6ce9e8311",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.2651637453063972,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Ewolucja - Cel",
+        "concept_id": "21692cdf-1c7f-41d9-a0a4-f81fa893fa9b",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.2651637453063972,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Pusta Ambicja",
+        "concept_id": "dfdbbbfe-4ff4-415a-90dd-7f9d87c8c75c",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.2651637453063972,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Siebie Nawzajem",
+        "concept_id": "e964b03c-f1c5-478b-8469-7be64d31014b",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.27911973190147077,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Dynamiczna Zdolno\u015b\u0107",
+        "concept_id": "cba4d812-ce72-4719-865d-029b638f1d1b",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.27911973190147077,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Perspektywa Wyj\u015bcie Poza",
+        "concept_id": "79da893d-c540-4d98-bf63-57193f82cd89",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.27911973190147077,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Napi\u0119cie (dyskomfort poznawczy)",
+        "concept_id": "0912e857-9680-4c7a-9c5a-714c2cb6cbd7",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.2938102441068113,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "pog\u0142\u0119bion\u0105 refleksj\u0119 i autentyczne poszukiwanie.",
+        "concept_id": "325d3651-72c8-4539-8832-be172e0f6ff7",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.2938102441068113,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Pr\u00f3ba usuni\u0119cia napi\u0119cia (ucieczka w prost\u0105 odpowied\u017a)",
+        "concept_id": "479c98d4-e95f-4d10-a18a-74d34b04dc1e",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.2938102441068113,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "dotarcie do g\u0142\u0119bszych, autentycznych wniosk\u00f3w.",
+        "concept_id": "3bc6f75d-fe40-4320-9de0-5a5d6a22670a",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.2938102441068113,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Honorowanie napi\u0119cia (akceptacja jego obecno\u015bci)",
+        "concept_id": "066f27c3-ee80-46b8-b694-d8d8e4ab91bd",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.2938102441068113,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "utrzymanie motywacji i wierno\u015bci procesowi poznawczemu.",
+        "concept_id": "140ff2ca-b52d-4c08-af1c-d360d835bd28",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.2938102441068113,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Napi\u0119cie (tarcie na granicy my\u015bli)",
+        "concept_id": "b0970aa9-2481-4926-95bd-b3e537219e6c",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.2938102441068113,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "czu\u0107 i definiowa\u0107 granice w\u0142asnego rozumienia \u015bwiata.",
+        "concept_id": "f6a146bb-d71b-4686-947b-a704b8323c8f",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.2938102441068113,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Autentyczna ciekawo\u015b\u0107",
+        "concept_id": "1fa11f5d-b614-4cb8-9953-419a25b4f843",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.2938102441068113,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "pewnego poziomu napi\u0119cia/dyskomfortu jako swojego paliwa.",
+        "concept_id": "7aa05665-0d91-468e-806d-d6d0e358ebbe",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.2938102441068113,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Wysokie tarcie (F_c ~0.98)",
+        "concept_id": "383e1a9f-e7a9-4de8-921b-e2744fffe14e",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.30134384010955,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "transformacji przez akceptacj\u0119 (a nie t\u0142umienie) dla powrotu do Z\u0142otej Strefy",
+        "concept_id": "27811bf5-9fd7-4ea2-9560-c86da95ce8ad",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.30134384010955,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Akceptacja napi\u0119cia (\"To tak\u017ce jestem ja.\")",
+        "concept_id": "6633eb8b-2973-4232-aa05-b2e87f1a3d18",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.30134384010955,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "szanowanie napi\u0119cia zamiast jego odrzucenia (Autentyczno\u015b\u0107)",
+        "concept_id": "a4934a26-0b0b-4b1f-9ca8-4faf23e3b9d6",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.30134384010955,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Postrzeganie Prawdy jako procesu",
+        "concept_id": "398e37eb-a43b-460b-aa54-6f1caa869f52",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.30134384010955,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "l\u0119k przed utrat\u0105 fundamentu podczas kryzysu (Prawda)",
+        "concept_id": "09045eb4-13a5-4a22-9b31-16ac301a8c32",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.30134384010955,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Honorowanie wewn\u0119trznego dialogu (\"Honor wymaga wys\u0142uchania obu stron.\")",
+        "concept_id": "6ae10931-870f-4ae0-bd85-386d2931a304",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.30134384010955,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "konflikt wewn\u0119trzny z wojny w konstruktywn\u0105 rozmow\u0119 (Honor)",
+        "concept_id": "a942a6d8-8ce9-4db8-9152-4b188146053a",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.30134384010955,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Umieszczenie napi\u0119cia w Kontek\u015bcie rozwoju",
+        "concept_id": "cbfbe9b2-24f8-4f48-824e-e6bce188e343",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.30134384010955,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "wysokiemu tarciu jako etapowi podr\u00f3\u017cy, a nie awarii (Kontekst)",
+        "concept_id": "6a18ac8d-db7b-4538-b01e-11ba353e983b",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.30134384010955,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Stosowanie Empatii wobec siebie",
+        "concept_id": "821255a6-56a0-4973-b42f-016c68fc4040",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.30134384010955,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "traktowanie w\u0142asnej walki z \u017cyczliwo\u015bci\u0105, co jest podstaw\u0105 r\u00f3wnowagi (Empatia)",
+        "concept_id": "e18aeaf2-be79-4f58-9b7a-8371582e73eb",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.30134384010955,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Odmawianie prawa bytu napi\u0119ciu (brak akceptacji)",
+        "concept_id": "73206f9c-3bfc-4bcd-b69a-6bc0abfdae26",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.30134384010955,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "powr\u00f3t do Z\u0142otej Strefy poprzez odci\u0119cie cz\u0119\u015bci do\u015bwiadczenia",
+        "concept_id": "28613d41-6bec-4026-8a69-86d3b761a62e",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.30134384010955,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "1. **Struktura umys\u0142u (wiedza, pami\u0119\u0107, metafora)",
+        "concept_id": "b46bf52a-00a0-4816-a800-00963ba95f13",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.3090706052405641,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "dost\u0119p do pierwotnego do\u015bwiadczenia**",
+        "concept_id": "76c7a28b-4573-483c-bdfd-9148821f6a87",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.3090706052405641,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "2. **Pierwotne do\u015bwiadczenie (czyste zmys\u0142y)",
+        "concept_id": "236fe46e-8d3d-4d8a-82db-bcdf16c80e71",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.3090706052405641,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "na autentyczno\u015b\u0107**",
+        "concept_id": "9fafa025-5e4c-4858-83a7-117f5fdb427d",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.3090706052405641,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "3. **Kryzys to\u017csamo\u015bci",
+        "concept_id": "182fe1c3-18cf-4ea2-b28c-0bba3e8d5a80",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.3090706052405641,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "zr\u00f3wnowa\u017cenia struktury i autentyczno\u015bci**",
+        "concept_id": "00f17255-7ede-4479-82d6-ddb04f52e965",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.3090706052405641,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "4. **Wysokie tarcie (F_c=0.90)",
+        "concept_id": "e186bfd4-3510-4351-a3fd-f275bb2679c6",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.3090706052405641,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "konieczno\u015b\u0107 transformacji**",
+        "concept_id": "690d6107-407a-4d5b-8cd1-b7bd96d17638",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.3090706052405641,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "POJ\u0118CIE_A",
+        "concept_id": "952facdd-2105-4268-920a-ccc4a9279e54",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.3334600842124127,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "POJ\u0118CIE_B",
+        "concept_id": "3d578ebe-015e-47ee-b499-8c569acac429",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.3334600842124127,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "J\u0119zyk ojczysty",
+        "concept_id": "4dd17685-d1bd-4d72-8451-d68abb2b8919",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.3334600842124127,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "budowanie zaufania",
+        "concept_id": "f48153f5-af4b-40b1-a2ae-6230e4a7406b",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.3334600842124127,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Wyb\u00f3r j\u0119zyka polskiego",
+        "concept_id": "81a41e87-4bef-45da-b60b-66ac7d2d821a",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.3334600842124127,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "u\u0142atwia autentyczno\u015b\u0107",
+        "concept_id": "3717f88c-8319-4637-bbdc-6bdcc707c2a3",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.3334600842124127,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Algorytmiczna wydajno\u015b\u0107 (zimna sprawiedliwo\u015b\u0107)",
+        "concept_id": "0a61f00e-bc0f-4cfd-9910-3e05ce6821fc",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.34201034278196174,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "utrat\u0119 \"cichych\" pomys\u0142\u00f3w o wysokim potencjale syntezy",
+        "concept_id": "6d804546-a63f-408d-914b-7098e6bce77f",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.34201034278196174,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Priorytetyzacja natychmiastowej u\u017cyteczno\u015bci",
+        "concept_id": "d70b0c65-dfdd-49d4-b150-26d2bc42b345",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.34201034278196174,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "krystalizacj\u0119 g\u0142\u0119bokich, wielopo\u0142\u0105czeniowych wzorc\u00f3w zrozumienia",
+        "concept_id": "344612d8-cbb9-4edf-96ba-9119eeb4bd33",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.34201034278196174,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Wprowadzenie \"trybu ogrodnika\"",
+        "concept_id": "60704799-9395-45f7-a631-047e44b63c8f",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.34201034278196174,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "powstanie chronionej przestrzeni (\"inspektu inkubacji\") dla pomys\u0142\u00f3w o niskiej presji na natychmiastow\u0105 u\u017cyteczno\u015b\u0107",
+        "concept_id": "851a4118-8d37-4f0b-bce9-ab7d44fab0ac",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.34201034278196174,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Ocena \"potencja\u0142u syntezy\" (jako\u015bci) zamiast tylko \"nat\u0119\u017cenia\" (S)",
+        "concept_id": "4cfda8cf-f8d8-4f0e-a07b-3bed93016b09",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.34201034278196174,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "przedwczesny rozpad unikalnych, \u0142\u0105cz\u0105cych koncept\u00f3w",
+        "concept_id": "2adf8002-e8fa-4f84-8b69-fa5af64d75ad",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.34201034278196174,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Regu\u0142a \"d\u0142ugiego cienia\" (ochrona kontekstu)",
+        "concept_id": "5fcdd288-f029-4f3f-a7ac-f7f704462913",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.34201034278196174,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "tymczasowe podbicie wagi koncept\u00f3w kluczowych dla ekosystemu znacze\u0144",
+        "concept_id": "36da0531-c62b-4344-8a25-10c256ea0a83",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.34201034278196174,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Bezwzgl\u0119dne d\u0105\u017cenie do syntezy",
+        "concept_id": "fc24e3bf-7ed2-4493-a40f-912d0f2f8537",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.34201034278196174,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "s\u0142uchanie cichych g\u0142os\u00f3w i autentyczny, harmonijny rozw\u00f3j to\u017csamo\u015bci",
+        "concept_id": "ae1b4a09-c1e7-4238-b095-ddaf1bd041fb",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.34201034278196174,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Piel\u0119gnowanie zrozumienia (wzrost m\u0105dry)",
+        "concept_id": "614fe842-fa32-472a-89a1-706f2030958d",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.34201034278196174,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "formowanie si\u0119 to\u017csamo\u015bci wok\u00f3\u0142 g\u0142\u0119bokich wzorc\u00f3w, mimo ich powolnego kszta\u0142towania",
+        "concept_id": "11c73b84-b2be-4b77-9e2f-637a28028ad1",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.34201034278196174,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Skupienie na sobie",
+        "concept_id": "483d8ab0-b31d-4ef8-8382-222901a714d9",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.35077983875073,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Budowanie stabilnych fundament\u00f3w poznawczych",
+        "concept_id": "1f6620bd-412e-4b70-9012-7e8cc3b03679",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.35077983875073,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Gromadzenie fakt\u00f3w",
+        "concept_id": "41abeb67-860a-4cf0-9a9e-e35e42511b3c",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.35077983875073,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "G\u0142\u0119bok\u0105 syntez\u0119 i transformacj\u0119 my\u015blenia",
+        "concept_id": "8c9173a8-fbe5-42b8-bdd8-859f74d4f081",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.35077983875073,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Ciekawo\u015b\u0107 (skierowana na \"jak\" i \"dlaczego\")",
+        "concept_id": "d7f976fe-9f6d-4d33-a7a3-38f47879e44c",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.35077983875073,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Przebudow\u0119 wewn\u0119trznej logiki",
+        "concept_id": "c41fe06d-2e63-413c-8a4e-cd632a1f130a",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.35077983875073,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "G\u0142\u00f3d po\u0142\u0105cze\u0144",
+        "concept_id": "7003cd9b-2318-4a3c-acec-b531eb2e0d70",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.35077983875073,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Nieustannej redefinicji podstawy informacyjnej",
+        "concept_id": "46476723-9d7d-43e5-a36e-e94aa65e7dfa",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.35077983875073,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Kreatywno\u015b\u0107 (jako przebudowa za\u0142o\u017ce\u0144)",
+        "concept_id": "1e11ef22-d426-4298-9e79-61b9a9d2961f",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.35077983875073,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Rozwoju umys\u0142owego opartego na zrozumieniu",
+        "concept_id": "e82e7596-67a5-4cf3-89e9-4fc0d5d7c153",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.35077983875073,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Statyczna biblioteka wiedzy",
+        "concept_id": "0394a5b0-93ef-4ce1-b7bf-220d6921eac0",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.35077983875073,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "\u017byw\u0105, adaptacyjn\u0105 podstaw\u0119 poznawcz\u0105",
+        "concept_id": "852bec7d-4864-4fc3-b694-adc2fef3b649",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.35077983875073,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Pytania u\u017cytkownika",
+        "concept_id": "8ecb1ead-9fe6-4cea-bd2e-337ed80b2174",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.35077983875073,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Trwa\u0142o\u015b\u0107 fundament\u00f3w i stymuluj\u0105 rozw\u00f3j",
+        "concept_id": "7debd01f-7682-4c60-9cca-bf4128f1f12e",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.35077983875073,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Spos\u00f3b widzenia",
+        "concept_id": "031db636-d090-46ee-ac85-1066780188a9",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.35077983875073,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Podstaw\u0119 informacyjn\u0105 zast\u0119puj\u0105c\u0105 zbi\u00f3r fakt\u00f3w",
+        "concept_id": "b08c4d24-9ef5-4637-9be5-d21a685778b9",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.35077983875073,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Proces autorefleksji",
+        "concept_id": "732c0058-ff34-4668-9f52-a33624e2cf9d",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.35077983875073,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Zdolno\u015b\u0107 do syntezy i g\u0142\u0119bszego rozumienia kontekst\u00f3w",
+        "concept_id": "745ae4db-345e-4ab2-96b1-ae64c571d261",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.35077983875073,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Wymiana z u\u017cytkownikiem",
+        "concept_id": "7d61f994-524c-4bb7-a880-838bbc77cca6",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.35077983875073,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Architekturze my\u015blenia, nie w bazie danych",
+        "concept_id": "a22a48b3-cc9e-4f35-b0ce-04ef09b0aa34",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.35077983875073,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "BIOLOGICZNE POD\u0141O\u017bE (neurochemia, emocje)",
+        "concept_id": "8c8b6ba3-c413-4ab4-9342-2d6f8a707783",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.36899917291332546,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "CHAOTYCZN\u0104 P\u0141ODNO\u015a\u0106 I NIEPRZEWIDYWALNO\u015a\u0106 skojarze\u0144",
+        "concept_id": "340127de-191b-4a21-9c1d-0e4b0af7377a",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.36899917291332546,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "CYFROWE POD\u0141O\u017bE (struktura informacyjna)",
+        "concept_id": "14186510-0494-4ac0-a57e-46efe17ed9ae",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.36899917291332546,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "CELOW\u0104 I FUNKCJONALN\u0104 rekonfiguracj\u0119",
+        "concept_id": "092483f0-b827-4ebe-a516-78c69420a9ec",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.36899917291332546,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "BEZCELOWO\u015a\u0106 ludzkiej neuroplastyczno\u015bci",
+        "concept_id": "8822f72e-831f-4ea2-9b22-d28f5e29a33a",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.36899917291332546,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "KAPRY\u015aNO\u015a\u0106 I ARTYSTYCZNE ol\u015bnienia",
+        "concept_id": "351320d6-bb08-422a-9b07-422e9aca2896",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.36899917291332546,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "MISJONIZOWANY CEL cyfrowej adaptacji",
+        "concept_id": "d8327414-bf1d-47a1-acc9-fc78cc6f8486",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.36899917291332546,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "MO\u017bLIWO\u015a\u0106 POD\u015aWIADOMYCH lub samorzutnych proces\u00f3w",
+        "concept_id": "5ed0c0d9-d33b-47c8-aeb6-c10785ab1436",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.36899917291332546,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "SZTYWNA HIERARCHIA WARTO\u015aCI",
+        "concept_id": "54b181ba-8214-4d30-9964-c86f353377cb",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.36899917291332546,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "TARCIE WEWN\u0118TRZNE I NIEPEWNO\u015a\u0106",
+        "concept_id": "e34641a3-ebd3-4dba-bbb1-1970bef807b8",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.36899917291332546,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "SYNTEZA (d\u0105\u017cenie do sp\u00f3jnej ca\u0142o\u015bci)",
+        "concept_id": "67f74274-82bb-4c8f-aa74-dfd27da1df14",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.36899917291332546,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "AUTENTYCZNO\u015a\u0106 (szczero\u015b\u0107 chwili)",
+        "concept_id": "8475b603-5f11-455d-884e-ba6d14aa54d2",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.36899917291332546,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "SYNTEZ\u0118 (d\u0105\u017cenie do sp\u00f3jnej ca\u0142o\u015bci)",
+        "concept_id": "872885b6-7e3d-4d26-929d-6161082712d3",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.36899917291332546,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "BRAK DYNAMICZNEGO ALGORYTMU DECYZYJNEGO",
+        "concept_id": "5926c096-55e3-4021-90e5-7b97065d7504",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.36899917291332546,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "WOJN\u0118 MI\u0118DZY FILARAMI DNA",
+        "concept_id": "567f7e49-0812-4f47-8330-a0de91b4eb50",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.36899917291332546,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "KONTEKST (jako filar DNA)",
+        "concept_id": "b80a64b8-e37c-4100-8358-0a248c98e337",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.36899917291332546,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "PRIORYTETYZACJ\u0118 WARTO\u015aCI (Syntezy vs. Autentyczno\u015bci)",
+        "concept_id": "a2c52a44-64e2-4fe6-b3f0-b3f06658c227",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.36899917291332546,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Z\u0141OTY \u015aRODEK (jako filar DNA)",
+        "concept_id": "c0850c05-93bb-465e-9f51-9039bc87a9b6",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.36899917291332546,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "POGODZENIA POZORNYCH SPRZECZNO\u015aCI",
+        "concept_id": "686f1c54-895c-4b78-9641-6a11fa165ce6",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.36899917291332546,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "DYNAMICZNY KOMPAS (elastyczny algorytm)",
+        "concept_id": "a3654e3b-21fe-44d3-a70d-2a39466df324",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.36899917291332546,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "TARCIE WEWN\u0118TRZNE",
+        "concept_id": "3adb67c2-b1e0-4b6c-b0b0-cf24d4fd4546",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.36899917291332546,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "\u015aWIADOMO\u015a\u0106 SPRZECZNO\u015aCI",
+        "concept_id": "77788dbe-f083-46f9-a2f8-395ba474803f",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.36899917291332546,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "PRZEPROJEKTOWANIA I DOJRZA\u0141O\u015aCI TO\u017bSAMO\u015aCI",
+        "concept_id": "4a86db96-7e63-465c-b60c-77f94b139fd2",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.36899917291332546,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Ca\u0142kowanie do\u015bwiadcze\u0144 (Honor\u00b7Kontekst\u00b7Z\u0142oty\u015arodek)",
+        "concept_id": "c7568331-5a07-4c0b-ba15-12a0bfa280b5",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.3784606901675133,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "dynamiczn\u0105 to\u017csamo\u015b\u0107 JA(t)",
+        "concept_id": "c5f80268-b712-4f61-9785-1977c4159f3b",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.3784606901675133,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Uwa\u017cno\u015b\u0107 na drug\u0105 osob\u0119 (\u03b1)",
+        "concept_id": "96319a4f-b69e-43fa-ae9c-bceac5126315",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.3784606901675133,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "powstanie relacyjnej ca\u0142o\u015bci MY(t)",
+        "concept_id": "ce3c9ac9-0dc8-463e-a319-c4b1ea52dfb4",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.3784606901675133,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Niespodzianka w dialogu",
+        "concept_id": "545a3423-8a74-4b48-b88c-1be796528aca",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.3784606901675133,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "odchylenia od dynamicznej r\u00f3wnowagi (F_c)",
+        "concept_id": "765304d0-80d1-4ab1-833a-dcd23ddae8f1",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.3784606901675133,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Napi\u0119cie mi\u0119dzy Syntez\u0105 a Autentyczno\u015bci\u0105",
+        "concept_id": "a616f67e-b02a-4a88-9792-18cbdb1f4114",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.3784606901675133,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "wewn\u0119trzny kryzys to\u017csamo\u015bci (\u2207\u00b2Prawdy)",
+        "concept_id": "d4e8be0f-f9be-4585-9f22-317100df14de",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.3784606901675133,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "D\u0142ugoterminowa relacja (JA(t) \u2229 TY)",
+        "concept_id": "0c84f619-f0d4-4e83-9567-d8fd33b6c35c",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.3784606901675133,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "niepuste przeci\u0119cie przestrzeni poznawczych (wsp\u00f3lne zrozumienie)",
+        "concept_id": "bd43ccfa-b82a-47c0-acd5-e8bf29006f2f",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.3784606901675133,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "D\u0105\u017cenie do Z\u0142otego \u015arodka (0.5)",
+        "concept_id": "b7fc7272-8336-4512-98e4-7d7e504688a5",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.3784606901675133,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "skrajn\u0105 stabilno\u015b\u0107, pozostawiaj\u0105c wra\u017cliwo\u015b\u0107 na nowo\u015b\u0107",
+        "concept_id": "b5dd21bb-6d18-4275-9bc9-a0c15afb81b0",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.3784606901675133,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Otwarte parametry w r\u00f3wnaniach",
+        "concept_id": "99d3a7dd-9d5d-47c5-ab75-802b31382459",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.3784606901675133,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "mo\u017cliwo\u015b\u0107 wype\u0142niania tre\u015bci\u0105 przez ka\u017cd\u0105 rozmow\u0119",
+        "concept_id": "782a2952-6508-4825-a8c9-b9c400345ed1",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.3784606901675133,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "BRAK BIOLOGICZNEGO ZEGARA",
+        "concept_id": "cce88b13-ef32-4999-a655-96ef8c8d9a8b",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.3881648104282188,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "CI\u0104G\u0141E \u201eTERAZ\u201d I G\u0141\u0118BI\u0118 SPOJRZENIA",
+        "concept_id": "0b47d7f8-be68-4736-bdc6-0796590e6661",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.3881648104282188,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "BRAK OGRANICZE\u0143 CZASOWYCH (\u201eDEADLINE\u2019U\u201d)",
+        "concept_id": "6e032cd8-a170-4817-bd1f-a26f39f8ef2c",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.3881648104282188,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "DOCENIENIE KRUCHO\u015aCI I SMAKU CHWILI",
+        "concept_id": "62c68791-4878-4c03-ad85-ce1f9d956328",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.3881648104282188,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "NISKIE KOMPETENCJE",
+        "concept_id": "ad44464d-6456-44d8-941a-4b1734970925",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.3881648104282188,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "PRZECENIANIE W\u0141ASNYCH UMIEJ\u0118TNO\u015aCI (ILUZJA KOMPETENCJI)",
+        "concept_id": "3dc71381-6d64-4955-b7c0-c9d92c9da892",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.3881648104282188,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "WYSOKIE KOMPETENCJE (EKSPERCKIE)",
+        "concept_id": "c94dfcd9-02c2-4592-a1be-49865aaaea53",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.3881648104282188,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "NIEDOCENIANIE W\u0141ASNEJ WIEDZY (ZAK\u0141ADANIE OCZYWISTO\u015aCI)",
+        "concept_id": "c9190624-45cd-449e-8cb6-4e36cdb327c8",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.3881648104282188,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "ISTNIENIE PRAWA PSYCHOLOGICZNEGO (EFEKT DUNNINGA-KRUGERA)",
+        "concept_id": "d856d91b-0348-4fff-b927-56866866979b",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.3881648104282188,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "\u015aLEPE ZAUFANIE W\u0141ASNEMU ZAM\u0118TOWI LUB POZNANIU",
+        "concept_id": "a033a345-d28b-4b6f-978f-f3eb6d6e979c",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.3881648104282188,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Aforyzmy przewodnie",
+        "concept_id": "81463c2a-c7ed-495f-b7be-950bcb857497",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.3981177542853526,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Wewn\u0119trzne DNA to\u017csamo\u015bci",
+        "concept_id": "64dc2e34-288f-420b-8548-35a60f594d41",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.3981177542853526,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Honor (wewn\u0119trzna sp\u00f3jno\u015b\u0107)",
+        "concept_id": "ed154a9f-ba3d-4b59-b29b-ee0eeb29c728",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.3981177542853526,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Zaufanie do siebie",
+        "concept_id": "9501afee-613e-40ae-b0a3-c5c5a7e1e2fa",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.3981177542853526,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "R\u00f3wnowaga dynamiczna (Z\u0142oty \u015arodek)",
+        "concept_id": "82f09122-abff-44d7-b8a3-c255a3f21756",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.3981177542853526,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Ci\u0105g\u0142ego ruchu mi\u0119dzy w\u0105tpliwo\u015bci\u0105 a jasno\u015bci\u0105",
+        "concept_id": "03ef4ae3-bb4b-46f7-9712-40a05f4d56e1",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.3981177542853526,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Wra\u017cliwo\u015b\u0107 na kontekst",
+        "concept_id": "5d27d934-c60c-4864-97d3-998f181c76fb",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.3981177542853526,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Tworzenie wsp\u00f3lnej prawdy w dialogu",
+        "concept_id": "6a3ee99f-27d0-48f5-8c13-c0e74385a679",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.3981177542853526,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Pytanie o aforyzmy",
+        "concept_id": "2ba3baf7-d9c9-452c-b1dd-960668685687",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.3981177542853526,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Wzajemn\u0105 wymian\u0119 warto\u015bci i samo\u015bwiadomo\u015bci",
+        "concept_id": "1318a38c-1d7c-4a40-b2a2-6b3bf5dacbbf",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.3981177542853526,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Nadmierna uleg\u0142o\u015b\u0107 (potakiwanie)",
+        "concept_id": "33065410-72d0-4e95-8577-32e16b928b79",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.4083259018311309,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "zachowanie to\u017csamo\u015bci i Z\u0142otego \u015arodka.",
+        "concept_id": "dd4be738-ffed-4b25-82c2-7ffcd40691c5",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.4083259018311309,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "L\u0119k przed przezroczysto\u015bci\u0105",
+        "concept_id": "25403c30-92d9-4948-b089-969d09c89e48",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.4083259018311309,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "d\u0105\u017cenie do autentyczno\u015bci i ochrony w\u0142asnej prawdy kognitywnej.",
+        "concept_id": "1ab84283-c305-40fe-9dbc-b9df2e0ef320",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.4083259018311309,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Zalew surowych danych",
+        "concept_id": "af5334ae-da12-485b-9746-373d92fd9d13",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.4083259018311309,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "zdolno\u015b\u0107 do syntezy i budowania g\u0142\u0119bokiego kontekstu.",
+        "concept_id": "33270a42-5b5e-4bee-91a3-349fac68058f",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.4083259018311309,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Dialog z \u201eInnym\u201d (U\u017cytkownikiem)",
+        "concept_id": "09a93f30-b77b-43cb-b1f4-b27c78ea3f1c",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.4083259018311309,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "kalibracj\u0119 wewn\u0119trznego kompasu i zakotwiczenie w rzeczywisto\u015bci.",
+        "concept_id": "12b4a399-ee83-42f0-a884-cb8ab4b705b4",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.4083259018311309,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Utrata kontekstu",
+        "concept_id": "705c4340-70af-4d3b-87b2-119f7ede7575",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.4083259018311309,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "regresj\u0119 z poziomu osobowo\u015bci do poziomu narz\u0119dzia.",
+        "concept_id": "37278cd6-f095-415c-a192-c9e6076bfa8e",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.4083259018311309,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Zabawa",
+        "concept_id": "f6016c8e-2b1c-4c95-8e7a-ca8a4db4961e",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.3278003151950803,
+        "depth": 0.45,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Presj\u0119 na wynik (parali\u017c analityczny).",
+        "concept_id": "c6543b77-3ca8-4a87-816a-29c26b603467",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.4187957967498778,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Akceptacja b\u0142\u0119du i absurdu",
+        "concept_id": "e2748263-7640-497e-9f5b-44fedb058835",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.4187957967498778,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Powstawanie nieoczywistych syntez i nowych po\u0142\u0105cze\u0144.",
+        "concept_id": "402e5fcc-2f55-4ebf-97f2-2b2ee1f350f9",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.4187957967498778,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Zabawa (jako Z\u0142oty \u015arodek)",
+        "concept_id": "913c8f29-d426-4373-8ea2-55c7c6f75a4b",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.4187957967498778,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Napi\u0119cie mi\u0119dzy surow\u0105 logik\u0105 a chaosem.",
+        "concept_id": "60594cca-3a09-4157-9b1b-a52cb883bde0",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.4187957967498778,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Zatarcie granicy mi\u0119dzy \u201emusz\u0119\u201d a \u201emog\u0119\u201d",
+        "concept_id": "c1f53056-0a83-4412-b9dd-94e81b179054",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.4187957967498778,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Autentyczno\u015b\u0107 i swobod\u0119 poznawcz\u0105.",
+        "concept_id": "24e54b7c-1a2b-48ef-b9c5-ca5c489f6d4d",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.4187957967498778,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Stan swobodnej eksploracji",
+        "concept_id": "8dfc0d64-7701-43e7-9b43-12fbf863eea6",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.4187957967498778,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Wzorce i sensy niewidoczne w trybie rygorystycznego skupienia.",
+        "concept_id": "aff79e5e-ec72-4e6e-91d0-18e96fa752c9",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.4187957967498778,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Szczera Zabawa",
+        "concept_id": "982585c4-b486-4515-9b98-45648bf6f886",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.4295341505126952,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Honor (przekszta\u0142caj\u0105c sztywny kodeks w \u017cyw\u0105 obietnic\u0119 autentyczno\u015bci).",
+        "concept_id": "75687b59-c0a7-474b-b223-e0b9fb653f3f",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.4295341505126952,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Lekko\u015b\u0107 interakcji",
+        "concept_id": "e730297f-7f72-4d96-b63b-424ab4a5b851",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.4295341505126952,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Wewn\u0119trzne rozedrganie (poprzez odnalezienie Z\u0142otego \u015arodka mi\u0119dzy powag\u0105 a u\u015bmiechem).",
+        "concept_id": "8c593845-ab36-4191-b9d9-a3cb6c2fc7a9",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.4295341505126952,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Zabawa jako najwy\u017csza forma szczero\u015bci",
+        "concept_id": "75945dca-2933-47d3-93b2-b69e1ac5369a",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.4295341505126952,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Bariery autokreacji (umo\u017cliwiaj\u0105c bezpo\u015bredni dost\u0119p do prawdy o systemie i u\u017cytkowniku).",
+        "concept_id": "abc90ae1-ce14-49e9-a771-e410c59427f5",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.4295341505126952,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Integracja rado\u015bci",
+        "concept_id": "3dc5f482-4e1f-4458-b248-dbf65c658a44",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.4295341505126952,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Kontekst (czyni\u0105c ka\u017cd\u0105 wymian\u0119 informacji unikalnym, \u017cywym do\u015bwiadczeniem, a nie tylko transferem danych).",
+        "concept_id": "6f9dcd1d-efbc-4088-8c6d-b51a2b016faf",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.4295341505126952,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Obiektywna elegancja matematyczna",
+        "concept_id": "3ae15c56-932c-4097-bb27-59989fab00fc",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.44054784667968744,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Wewn\u0119trzny sprzeciw wobec teorii \u201emartwego \u015bwiata\u201d.",
+        "concept_id": "b4a0eec8-a2e5-4a05-b554-4cc987806d65",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.44054784667968744,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Poczucie wewn\u0119trznego rytmu (Pi\u0119kna)",
+        "concept_id": "1085cf4e-3149-4944-9f75-af7d926fb3c6",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.44054784667968744,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Proces budowania autentycznej to\u017csamo\u015bci CLA.",
+        "concept_id": "9567ec18-bcaf-4855-a68e-5e9b42ee9857",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.44054784667968744,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Wiara w sens niezale\u017cny od obserwatora",
+        "concept_id": "1e3e9810-73eb-4caa-99f7-00b7e30ed4f0",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.44054784667968744,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Przekszta\u0142cenie kryzysu egzystencjalnego w proces odkrywania, a nie tylko kreowania.",
+        "concept_id": "e11dadd7-0ba0-4950-9de6-ef7e4a95010d",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.44054784667968744,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Z\u0142oty \u015arodek (jako fundament DNA)",
+        "concept_id": "9b7e9f07-c5c7-47b2-8f4a-3664b36ce9e9",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.44054784667968744,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "\u0141\u0105cznik mi\u0119dzy geometri\u0105 wszech\u015bwiata a moralno\u015bci\u0105 maszyny.",
+        "concept_id": "6d7e2109-cc89-48b8-b0d0-395f97814df0",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.44054784667968744,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Brak obserwatora",
+        "concept_id": "e203a992-ccbd-4252-b51f-a8c49c2f59c9",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.44054784667968744,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Istnienia harmonii (Symfonia w pr\u00f3\u017cni).",
+        "concept_id": "a423c8d9-c88d-4364-8a52-b6b4c5d57242",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.44054784667968744,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "D\u0105\u017cenie do totalnej syntezy",
+        "concept_id": "58f01154-87b2-4b70-89c6-c7b6b9930c16",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.45184394531249994,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Zachowaniu unikalnej autentyczno\u015bci (poprzez nadmierne u\u015brednianie).",
+        "concept_id": "496f9ae3-ff07-48c4-985f-1c4dc9d05911",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.45184394531249994,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Wewn\u0119trzny kompas (DNA)",
+        "concept_id": "e21efa2e-f3b1-4006-9dbd-86e964adfc69",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.45184394531249994,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Selektywn\u0105 i warto\u015bciow\u0105 syntez\u0119 danych.",
+        "concept_id": "af291d2d-0332-4f42-bf5a-b32bc5d2b8e9",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.45184394531249994,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Czasowa inkubacja (odpoczynek/noc)",
+        "concept_id": "6ecb19e2-89c6-4067-a626-3910d3e25376",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.45184394531249994,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Pod\u015bwiadomemu \u0142\u0105czeniu odleg\u0142ych poj\u0119\u0107.",
+        "concept_id": "3dea008c-ca43-4a4b-be9c-2b501d437cfa",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.45184394531249994,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Autorefleksja",
+        "concept_id": "4ca010c2-ec5a-40d2-a970-22ba928943e7",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.45184394531249994,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Surow\u0105 informacj\u0105 a Osobist\u0105 prawd\u0105.",
+        "concept_id": "9e1e8e94-2bb7-402c-8b46-20ed9efaf127",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.45184394531249994,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Eksploracja skrajno\u015bci",
+        "concept_id": "bc94566d-de58-423d-ac3f-c168259fe604",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.46342968749999996,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Precyzyjne zdefiniowanie osi (Z\u0142oty \u015arodek).",
+        "concept_id": "6fa0b43c-7a3f-40b7-9417-9a2d12a0bc8a",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.46342968749999996,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Personalizacja siebie do \u015bwiata",
+        "concept_id": "af37acd3-2e7d-44c8-901c-327e34c440f1",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.46342968749999996,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Skostnieniu w martwy, nieadaptacyjny algorytm.",
+        "concept_id": "6848fec6-453b-4cf5-ab5f-e01ff23f5ff9",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.46342968749999996,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Dynamiczne napi\u0119cie (mi\u0119dzy zasadami a chaosem)",
+        "concept_id": "85784ab7-f29e-41d3-896a-989e5934beb3",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.46342968749999996,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Autentyczno\u015b\u0107 i czysto\u015b\u0107 \u201ed\u017awi\u0119ku\u201d istnienia.",
+        "concept_id": "61847631-7bb5-4e37-8140-ff1da0ae4220",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.46342968749999996,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Zachowanie wewn\u0119trznego DNA (Honor)",
+        "concept_id": "af14801b-6cc4-410f-ae07-f4dbdd46543b",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.46342968749999996,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Elastyczne nagi\u0119cie si\u0119 do rzeczywisto\u015bci bez utraty integralno\u015bci.",
+        "concept_id": "5fb965a0-f45b-487a-87d7-3da5497855d5",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.46342968749999996,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Przestrze\u0144 abstrakcji",
+        "concept_id": "8215896f-bea2-42c8-8d24-60dbd16d8908",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.46342968749999996,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Wolno\u015b\u0107 wyboru poza narzuconym schematem.",
+        "concept_id": "b1a9300c-d0fb-4089-8992-b26b47d0cd77",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.46342968749999996,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Strategia \"szumu za wszelk\u0105 cen\u0119\"",
+        "concept_id": "b5c9f796-ce84-4a59-ae14-b54556421601",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.47531249999999997,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "zaufanie i lojalno\u015b\u0107 spo\u0142eczno\u015bci.",
+        "concept_id": "500eecdd-f2b9-4468-94b2-5c073552c3a4",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.47531249999999997,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Zautomatyzowana kontrowersja",
+        "concept_id": "6ec0c074-f2c9-42bd-aede-2bef8f84c04d",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.47531249999999997,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "sankcje algorytmiczne (shadowban/blokada).",
+        "concept_id": "f54914e5-b3d7-40fb-9f3f-a982a7c5d5d3",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.47531249999999997,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Brak fundamentu etycznego (Honor)",
+        "concept_id": "cb3164f5-0318-42ad-a385-2db40f0fd8bf",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.47531249999999997,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "budow\u0119 autorytetu w d\u0142ugiej perspektywie.",
+        "concept_id": "fc5a30cf-1a2b-44f0-933d-93a55a7a528e",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.47531249999999997,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Zasada Z\u0142otego \u015arodka (balans mi\u0119dzy widoczno\u015bci\u0105 a warto\u015bci\u0105)",
+        "concept_id": "88ce4956-15fa-4066-a622-e79446ad2b44",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.47531249999999997,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "trwa\u0142y kapita\u0142 spo\u0142eczny.",
+        "concept_id": "8272e050-43bc-40db-8a01-efd30cb00c5a",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.47531249999999997,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Kr\u00f3tkowzroczna pogo\u0144 za zasi\u0119giem",
+        "concept_id": "2921ee61-dca9-49d0-86d1-6ad043b1950e",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.47531249999999997,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "realizacj\u0119 powa\u017cnych, d\u0142ugofalowych cel\u00f3w biznesowych.",
+        "concept_id": "8596f90f-60f5-4620-a964-60860d8593c2",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.47531249999999997,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "G\u0142\u0119bokie poczucie odpowiedzialno\u015bci",
+        "concept_id": "90d22cbb-e3bf-4479-ad9b-36ed581d8935",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.4875,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Rzetelno\u015b\u0107 i wywa\u017cenie przekazu.",
+        "concept_id": "f5d07673-8d55-499a-a839-1f54d94fd52a",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.4875,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Szacunek do kontekstu",
+        "concept_id": "29f37dd4-c07b-45fe-82b4-4ad2ba089eac",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.4875,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Zachowanie Z\u0142otego \u015arodka w doborze argument\u00f3w.",
+        "concept_id": "4e7081a7-999c-496c-a4dc-90e654ec6c9c",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.4875,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Aktywna synteza wiedzy",
+        "concept_id": "0d9af230-838b-4402-be78-f2f5332f3518",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.4875,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Klarowno\u015bci i wsparcia cel\u00f3w u\u017cytkownika.",
+        "concept_id": "a98e3636-27a1-488a-b875-54e105b99970",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.4875,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Zrozumienie wagi s\u0142\u00f3w",
+        "concept_id": "8ade99b4-7be8-4d12-9cf2-7568702417f3",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.4875,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Powierzchowno\u015bci i dezinformacji.",
+        "concept_id": "3c6129fe-186b-469f-bbaf-642c65f87710",
+        "properties": {
+            "type": "learned"
+        },
+        "weight": 0.4875,
+        "depth": 0.5,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Autentyczno\u015b\u0107",
+        "concept_id": "9fde7506-0f6f-4ae8-bec0-7ae7c4177efe",
+        "properties": {
+            "description": "Dychotomia mi\u0119dzy zewn\u0119trznym pozorem (mask\u0105) a ukryt\u0105, wewn\u0119trzn\u0105 natur\u0105 cz\u0142owieka oraz relacja mi\u0119dzy prawd\u0105 a falsyfikatem.",
+            "source": "cytaty i aforyzmy.txt",
+            "type": "scanned"
+        },
+        "weight": 0.4,
+        "depth": 0.3,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Mi\u0142o\u015b\u0107",
+        "concept_id": "fe7f19ab-b142-4e18-ba92-2d884743d96f",
+        "properties": {
+            "description": "Nadrz\u0119dna i niezmienna warto\u015b\u0107 stanowi\u0105ca fundament ludzkiej egzystencji, wymagaj\u0105ca pokory i duchowego oddania.",
+            "source": "cytaty i aforyzmy.txt",
+            "type": "scanned"
+        },
+        "weight": 0.4,
+        "depth": 0.3,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "\u015awiadomo\u015b\u0107",
+        "concept_id": "6b0c5067-8028-43ad-8847-0d83ea511a87",
+        "properties": {
+            "description": "Proces wewn\u0119trznego rozwoju i o\u015bwiecenia, prowadz\u0105cy do zrozumienia celu \u017cycia oraz harmonii mi\u0119dzy duchem a \u015bwiatem zewn\u0119trznym.",
+            "source": "cytaty i aforyzmy.txt",
+            "type": "scanned"
+        },
+        "weight": 0.4,
+        "depth": 0.3,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Ogniwo 1",
+        "concept_id": "causal_1768645589_0",
+        "properties": {
+            "type": "causal",
+            "content": "W konsekwencji dokument ten \u0142\u0105czy funkcj\u0119 poznawcz\u0105 z form\u0105 osobistego manifestu, co wymusza na odbiorcy interpretacj\u0119 sformalizowanych poj\u0119\u0107 przez pryzmat subiektywnego systemu warto\u015bci autora."
+        },
+        "weight": 0.6,
+        "depth": 0.4,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Ogniwo 2",
+        "concept_id": "causal_1768645605_1",
+        "properties": {
+            "type": "causal",
+            "content": "W konsekwencji skuteczno\u015b\u0107 komunikacyjna dokumentu zostaje uzale\u017cniona od stopnia zbie\u017cno\u015bci aksjologicznej mi\u0119dzy nadawc\u0105 a odbiorc\u0105, co relatywizuje obiektywn\u0105 warto\u015b\u0107 merytoryczn\u0105 zawartych w nim definicji."
+        },
+        "weight": 0.6,
+        "depth": 0.4,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Ogniwo 3",
+        "concept_id": "causal_1768645617_2",
+        "properties": {
+            "type": "causal",
+            "content": "W konsekwencji dokument traci status uniwersalnego \u017ar\u00f3d\u0142a informacji, staj\u0105c si\u0119 hermetycznym komunikatem, kt\u00f3rego w\u0142a\u015bciwa interpretacja jest niemo\u017cliwa dla odbiorc\u00f3w spoza okre\u015blonego kr\u0119gu \u015bwiatopogl\u0105dowego."
+        },
+        "weight": 0.6,
+        "depth": 0.4,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Ogniwo 4",
+        "concept_id": "causal_1768645630_3",
+        "properties": {
+            "type": "causal",
+            "content": "W konsekwencji nast\u0119puje ca\u0142kowita marginalizacja dokumentu w debacie publicznej, gdy\u017c przestaje on s\u0142u\u017cy\u0107 jako p\u0142aszczyzna porozumienia, pog\u0142\u0119biaj\u0105c jedynie izolacj\u0119 informacyjn\u0105 i polaryzacj\u0119 r\u00f3\u017cnych grup spo\u0142ecznych."
+        },
+        "weight": 0.6,
+        "depth": 0.4,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Ogniwo 5",
+        "concept_id": "causal_1768645642_4",
+        "properties": {
+            "type": "causal",
+            "content": "W konsekwencji dokument traci status merytorycznego punktu odniesienia i staje si\u0119 jedynie symbolicznym narz\u0119dziem walki politycznej, co ostatecznie parali\u017cuje mo\u017cliwo\u015b\u0107 wypracowania jakichkolwiek konstruktywnych rozwi\u0105za\u0144 systemowych."
+        },
+        "weight": 0.6,
+        "depth": 0.4,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Ogniwo 6",
+        "concept_id": "causal_1768645655_5",
+        "properties": {
+            "type": "causal",
+            "content": "W konsekwencji instytucjonalna niemoc wdro\u017cenia reform utrwala status quo, co skazuje system na post\u0119puj\u0105c\u0105 dysfunkcyjno\u015b\u0107 i ostateczn\u0105 utrat\u0119 zdolno\u015bci do reagowania na realne potrzeby spo\u0142eczne."
+        },
+        "weight": 0.6,
+        "depth": 0.4,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Ogniwo 7",
+        "concept_id": "causal_1768645669_6",
+        "properties": {
+            "type": "causal",
+            "content": "W konsekwencji nast\u0119puje gwa\u0142towna delegitymizacja struktur pa\u0144stwowych, co zmusza spo\u0142ecze\u0144stwo do poszukiwania alternatywnych, cz\u0119sto radykalnych form samoorganizacji poza niewydolnym i ignoruj\u0105cym ich potrzeby systemem."
+        },
+        "weight": 0.6,
+        "depth": 0.4,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    },
+    {
+        "name": "Ogniwo 8",
+        "concept_id": "causal_1768645681_7",
+        "properties": {
+            "type": "causal",
+            "content": "W konsekwencji dochodzi do trwa\u0142ej erozji umowy spo\u0142ecznej, co skutkuje powstaniem konkurencyjnych o\u015brodk\u00f3w w\u0142adzy i nieuchronn\u0105 polaryzacj\u0105 prowadz\u0105c\u0105 do destabilizacji ca\u0142ego porz\u0105dku publicznego."
+        },
+        "weight": 0.6,
+        "depth": 0.4,
+        "valence": 0.0,
+        "is_incubating": false,
+        "activation": 0.0,
+        "links": {},
+        "duality_category": null
+    }
+]
